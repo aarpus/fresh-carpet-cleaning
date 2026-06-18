@@ -3639,7 +3639,7 @@ img {
 
 @media (max-width: 440px) {
   .wpo-site-header .navbar-header .navbar-brand img {
-    max-width: 170px;
+    max-width: 220px;
   }
 }
 
@@ -4167,6 +4167,7 @@ img {
   .static-hero .slide-title span,
   .static-hero-s2 .slide-title span {
     font-size: 16px;
+    color: #015285 !important;
   }
 }
 
@@ -4233,8 +4234,25 @@ img {
   .static-hero-s2 .slide-sub-title h2 {
     font-size: 35px;
     line-height: 45px;
+    color: #015285 !important;
   }
 }
+
+@media (max-width: 575px) {
+
+  .static-hero .slide-description p,
+  .static-hero-s2 .slide-description p {
+    color: #015285 !important;
+  }
+  .theme-btn-s3 {
+    background: #06447f;
+    /* padding: 6px 9px 6px 9px; */
+    padding: 8px 18px;
+    font-size: 14px;
+    padding-right: 40px;
+  }
+}
+
 
 .static-hero .slide-sub-title h2::before,
 .static-hero-s2 .slide-sub-title h2::before {
