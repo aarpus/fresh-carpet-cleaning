@@ -7,9 +7,9 @@ const officeInfo = [
     title: "address line",
     content: (
       <>
-        Bowery St, New York, 37 USA
+        Frederick, MD, USA
         <br />
-        NY 10013,USA
+        MD 00000,USA
       </>
     ),
     active: false,
@@ -19,9 +19,9 @@ const officeInfo = [
     title: "Phone Number",
     content: (
       <>
-        (301) 682-8200
+        (000) 000-0000
         <br />
-        (410) 255-3900
+        (000) 000-0000
       </>
     ),
     active: true,
@@ -31,9 +31,9 @@ const officeInfo = [
     title: "Address",
     content: (
       <>
-        contact@cleanar.com
+        contact@freshclean.com
         <br />
-        info@cleanar.com
+        info@freshclean.com
       </>
     ),
     active: false,
@@ -50,10 +50,7 @@ export default function ContactPage() {
           <div className="office-info">
             <div className="row">
               {officeInfo.map((item) => (
-                <div
-                  key={item.title}
-                  className="col col-lg-4 col-md-6 col-12"
-                >
+                <div key={item.title} className="col col-lg-4 col-md-6 col-12">
                   <div
                     className={`office-info-item${item.active ? " active" : ""}`}
                   >

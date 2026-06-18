@@ -96,8 +96,8 @@ export default function MyersvilleAreaPage() {
                   <Link href="/appointment" className="theme-btn-s2">
                     Schedule Service
                   </Link>
-                  <Link href="tel:+13016828200" className="theme-btn-s3">
-                    (301) 682-8200
+                  <Link href="tel:+10000000000" className="theme-btn-s3">
+                    (000) 000-0000
                   </Link>
                 </div>
               </motion.div>

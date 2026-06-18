@@ -135,8 +135,8 @@ export default function UrbanaAreaPage() {
                 </p>
                 <p className="area-body-text">
                   From new construction homes to established neighborhoods, we
-                  tailor every visit to your floors, furniture, and family
-                  needs — with clear communication from quote to completion.
+                  tailor every visit to your floors, furniture, and family needs
+                  — with clear communication from quote to completion.
                 </p>
               </motion.div>
             </div>
@@ -175,8 +175,8 @@ export default function UrbanaAreaPage() {
               Our Carpet Cleaning Process in Urbana, MD
             </h2>
             <p className="area-body-text area-body-text--center">
-              A proven six-step method for consistent, high-quality results every
-              visit.
+              A proven six-step method for consistent, high-quality results
+              every visit.
             </p>
           </motion.div>
 
@@ -294,9 +294,8 @@ export default function UrbanaAreaPage() {
           >
             <h2>Breathe New Life Into Your Urbana Home!</h2>
             <p className="area-urbana-cta__phone">
-              CALL{" "}
-              <Link href="tel:+13016828200">(301) 682-8200</Link> TODAY FOR A
-              FREE QUOTE!
+              CALL <Link href="tel:+10000000000">(000) 000-0000</Link> TODAY FOR
+              A FREE QUOTE!
             </p>
             <p>We look forward to hearing from you.</p>
             <Link href="/appointment" className="theme-btn-s2">

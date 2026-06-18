@@ -59,11 +59,11 @@ export default function Footer() {
                 <ul className="site-footer-contact-lines list-unstyled mb-0">
                   <li>
                     <Link
-                      href="tel:+13016828200"
+                      href="tel:+10000000000"
                       className="site-footer-contact-line"
                     >
                       <i className="fa fa-phone" aria-hidden="true" />
-                      <span>(301) 682-8200</span>
+                      <span>(000) 000-0000</span>
                     </Link>
                   </li>
                   <li>

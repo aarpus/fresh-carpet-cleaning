@@ -9,9 +9,9 @@ const TopBar = () => {
           <div className="col-lg-8 col-12">
             <ul className="contact-info">
               <li>
-                <a href="tel:+13016828200">
+                <a href="tel:+10000000000">
                   <i className="flaticon-phone"></i>
-                  <span>(301) 682-8200</span>
+                  <span>(000) 000-0000</span>
                 </a>
               </li>
 

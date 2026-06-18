@@ -133,7 +133,8 @@ export default function FrederickAreaPage() {
                   Whether you need a one-time deep clean before guests arrive or
                   regular maintenance for high-traffic rooms, our team shows up
                   on time, treats your property with respect, and leaves carpets
-                  cleaner, fresher, and faster-drying than DIY methods ever could.
+                  cleaner, fresher, and faster-drying than DIY methods ever
+                  could.
                 </p>
               </motion.div>
             </div>
@@ -249,7 +250,7 @@ export default function FrederickAreaPage() {
               From downtown Frederick to Ballenger Creek, Spring Ridge, and
               nearby communities, we are proud to bring professional carpet
               cleaning to your neighborhood. Call{" "}
-              <Link href="tel:+13016828200">(301) 682-8200</Link> for a free
+              <Link href="tel:+10000000000">(000) 000-0000</Link> for a free
               estimate.
             </p>
           </motion.div>

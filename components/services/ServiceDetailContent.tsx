@@ -29,10 +29,10 @@ export default function ServiceDetailContent({
   service,
 }: ServiceDetailContentProps) {
   const defaultOpenIndex = service.accordion.findIndex(
-    (item) => item.defaultOpen
+    (item) => item.defaultOpen,
   );
   const [openIndex, setOpenIndex] = useState(
-    defaultOpenIndex >= 0 ? defaultOpenIndex : 0
+    defaultOpenIndex >= 0 ? defaultOpenIndex : 0,
   );
 
   const toggleAccordion = (index: number) => {
@@ -104,10 +104,7 @@ export default function ServiceDetailContent({
                 transition={fadeTransition(0.3)}
               >
                 <div className="video-img">
-                  <img
-                    src="/assets/images/service-single/video.jpg"
-                    alt=""
-                  />
+                  <img src="/assets/images/service-single/video.jpg" alt="" />
                   <div className="video-holder">
                     <a
                       href="https://www.youtube.com/embed/1Bsgv6DnTiI"
@@ -217,7 +214,9 @@ export default function ServiceDetailContent({
                     <li key={item.slug}>
                       <Link
                         href={`/services/${item.slug}`}
-                        className={item.slug === service.slug ? "active" : undefined}
+                        className={
+                          item.slug === service.slug ? "active" : undefined
+                        }
                       >
                         {item.title}
                       </Link>
@@ -231,8 +230,8 @@ export default function ServiceDetailContent({
                 </div>
                 <h2>Looking for Cleaning service Provider?</h2>
                 <span>Call anytime</span>
-                <a href="tel:+13016828200" className="num">
-                  <span>(301) 682-8200</span>
+                <a href="tel:+10000000000" className="num">
+                  <span>(000) 000-0000</span>
                 </a>
               </div>
             </motion.div>

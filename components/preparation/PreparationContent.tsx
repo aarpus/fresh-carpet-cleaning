@@ -163,11 +163,14 @@ export default function PreparationContent() {
           variants={fadeInUp}
           transition={fadeTransition(0.1)}
         >
-          Thank you for choosing Fresh Clean Carpet Cleaning. A little preparation
-          before we arrive helps us deliver the best results safely and
-          efficiently. If you have any questions, call us at{" "}
-          <Link href="tel:+13016828200">(301) 682-8200</Link> or email{" "}
-          <Link href="mailto:support@freshclean.com">support@freshclean.com</Link>.
+          Thank you for choosing Fresh Clean Carpet Cleaning. A little
+          preparation before we arrive helps us deliver the best results safely
+          and efficiently. If you have any questions, call us at{" "}
+          <Link href="tel:+10000000000">(000) 000-0000</Link> or email{" "}
+          <Link href="mailto:support@freshclean.com">
+            support@freshclean.com
+          </Link>
+          .
         </motion.p>
 
         <motion.div

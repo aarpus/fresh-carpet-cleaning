@@ -56,11 +56,11 @@ export default function CTA() {
                     efficient IT solutions has never been more critical.
                   </motion.p>
                 </div>
-                <a href="tel:+17189044450" className="call">
+                <a href="tel:+10000000000" className="call">
                   <i>
                     <img src="/assets/images/phone-call.svg" alt="" />
                   </i>
-                  +1 718-904-4450
+                  +1 000-000-0000
                 </a>
                 <small>
                   Consult With It Advisor? <Link href="#">Click Now</Link>
