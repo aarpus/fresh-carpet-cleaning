@@ -1,0 +1,253 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "flaticon";
+  src: url("./flaticon.woff2?da7a82cff604fd63ae68b8c4403f4517") format("woff2"), url("./flaticon.woff?da7a82cff604fd63ae68b8c4403f4517") format("woff"), url("./flaticon.eot?da7a82cff604fd63ae68b8c4403f4517#iefix") format("embedded-opentype"), url("./flaticon.ttf?da7a82cff604fd63ae68b8c4403f4517") format("truetype"), url("./flaticon.svg?da7a82cff604fd63ae68b8c4403f4517#flaticon") format("svg");
+}
+
+i[class^="-"]:before, i[class*=" -"]:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.-email:before {
+  content: "";
+}
+
+.-phone:before {
+  content: "";
+}
+
+.-facebook-app-symbol:before {
+  content: "";
+}
+
+.-twitter:before {
+  content: "";
+}
+
+.-linkedin:before {
+  content: "";
+}
+
+.-vimeo:before {
+  content: "";
+}
+
+.-clock:before {
+  content: "";
+}
+
+.-mail:before {
+  content: "";
+}
+
+.-phone-1:before {
+  content: "";
+}
+
+.-magnifying-glass:before {
+  content: "";
+}
+
+.-bag:before {
+  content: "";
+}
+
+.-arrow:before {
+  content: "";
+}
+
+.-right-arrow:before {
+  content: "";
+}
+
+.-phone-call:before {
+  content: "";
+}
+
+.-tap:before {
+  content: "";
+}
+
+.-handshake:before {
+  content: "";
+}
+
+.-gift:before {
+  content: "";
+}
+
+.-fund:before {
+  content: "";
+}
+
+.-first-aid-kit:before {
+  content: "";
+}
+
+.-charity:before {
+  content: "";
+}
+
+.-cardiogram:before {
+  content: "";
+}
+
+.-gift-box:before {
+  content: "";
+}
+
+.-play:before {
+  content: "";
+}
+
+.-arrow-up:before {
+  content: "";
+}
+
+.-shield:before {
+  content: "";
+}
+
+.-order:before {
+  content: "";
+}
+
+.-return-box:before {
+  content: "";
+}
+
+.-delivery-truck:before {
+  content: "";
+}
+
+.-camera:before {
+  content: "";
+}
+
+.-youtube:before {
+  content: "";
+}
+
+.-pinterest:before {
+  content: "";
+}
+
+.-next:before {
+  content: "";
+}
+
+.-shopping-cart:before {
+  content: "";
+}
+
+.-tablet:before {
+  content: "";
+}
+
+.-right-arrow-1:before {
+  content: "";
+}
+
+.-left-arrow:before {
+  content: "";
+}
+
+.-graduation-cap:before {
+  content: "";
+}
+
+.-checklist:before {
+  content: "";
+}
+
+.-medal:before {
+  content: "";
+}
+
+.-check:before {
+  content: "";
+}
+
+.-share:before {
+  content: "";
+}
+
+.-double-quotes:before {
+  content: "";
+}
+
+.-star:before {
+  content: "";
+}
+
+.-heart:before {
+  content: "";
+}
+
+.-user:before {
+  content: "";
+}
+
+.-chat:before {
+  content: "";
+}
+
+.-menu:before {
+  content: "";
+}
+
+.-maps-and-flags:before {
+  content: "";
+}
+
+.-pawprint:before {
+  content: "";
+}
+
+.-dog:before {
+  content: "";
+}
+
+.-cat-bath:before {
+  content: "";
+}
+
+.-donation:before {
+  content: "";
+}
+
+.-global-distribution:before {
+  content: "";
+}
+
+.-time-left:before {
+  content: "";
+}
+
+.-right-arrow-2:before {
+  content: "";
+}
+
+.-calendar:before {
+  content: "";
+}
+
+.-home-address:before {
+  content: "";
+}
+
+.-mail-1:before {
+  content: "";
+}
+
+.-edit:before {
+  content: "";
+}
+/*# sourceMappingURL=flaticon.css.map */
