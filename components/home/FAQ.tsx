@@ -109,7 +109,7 @@ export default function FAQ() {
                     variants={slideInRight}
                     transition={fadeTransition(0.2)}
                   >
-                    Freequently ask questions...
+                    Frequently ask questions...
                   </motion.h2>
                   <motion.p
                     initial="hidden"
