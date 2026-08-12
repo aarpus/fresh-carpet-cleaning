@@ -149,7 +149,7 @@ export default function ContactForm() {
                     transition={fadeTransition(0.1)}
                   >
                     <i>
-                      <img src="/assets/images/cleaning-icon.svg" alt="" />
+                      <img src="/assets/images/cleaning-icon.png" alt="" />
                     </i>
                     get in touch
                   </motion.span>

@@ -33,7 +33,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="/assets/css/odometer-theme-default.css" />
         <link rel="stylesheet" href="/assets/css/style.css" />
       </head>
-      <body>
+      <body suppressHydrationWarning>
         <div className="page-wrapper">
           <Preloader />
           <Header />

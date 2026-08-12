@@ -30,10 +30,10 @@ const fadeTransition = (delay = 0) => ({
 });
 
 const benefits = [
-  { label: "Experienced & Certified Cleaning Specialists", active: false },
-  { label: "Safe, Eco-Friendly Cleaning Solutions", active: true },
-  { label: "Honest Pricing with No Hidden Fees", active: false },
-  { label: "100% Customer Satisfaction Guaranteed", active: false },
+  { label: "Experienced Cleaning Professionals", active: false },
+  { label: "Safe & Family-Friendly Cleaning Solutions", active: true },
+  { label: "Straightforward Pricing With No Surprises", active: false },
+  { label: "Quality Service You Can Feel Good About", active: false },
 ];
 
 function TeamCounter({ target }: { target: number }) {
@@ -56,11 +56,7 @@ function TeamCounter({ target }: { target: number }) {
     requestAnimationFrame(tick);
   }, [isInView, target]);
 
-  return (
-    <span ref={ref}>
-      {String(count).padStart(2, "0")}
-    </span>
-  );
+  return <span ref={ref}>{String(count).padStart(2, "0")}</span>;
 }
 
 export default function WhyChooseUs() {
@@ -79,7 +75,10 @@ export default function WhyChooseUs() {
                 transition={fadeTransition(0)}
               >
                 <div className="wpo-choose-left-img left-to-right-light">
-                  <img src="/assets/images/choose/choose.png" alt="Why choose us" />
+                  <img
+                    src="/assets/images/choose/choose.png"
+                    alt="Why choose us"
+                  />
                 </div>
                 <div className="wpo-choose-left-box">
                   <div className="wrap">
@@ -91,10 +90,7 @@ export default function WhyChooseUs() {
                     </div>
                   </div>
                   <div className="radius-shape">
-                    <img
-                      src="/assets/images/choose/radius-shape.svg"
-                      alt=""
-                    />
+                    <img src="/assets/images/choose/radius-shape.svg" alt="" />
                   </div>
                 </div>
               </motion.div>
@@ -118,7 +114,7 @@ export default function WhyChooseUs() {
                     transition={fadeTransition(0.1)}
                   >
                     <i>
-                      <img src="/assets/images/cleaning-icon.svg" alt="" />
+                      <img src="/assets/images/cleaning-icon.png" alt="" />
                     </i>
                     why choose us
                   </motion.span>
@@ -139,10 +135,11 @@ export default function WhyChooseUs() {
                     variants={fadeInUp}
                     transition={fadeTransition(0.3)}
                   >
-                    With professional expertise and safe cleaning products, we
-                    restore freshness and extend the life of your carpets.
-                    Customer satisfaction and quality workmanship are at the
-                    heart of everything we do.
+                    At Totally Flooring, we take pride in giving your floors the
+                    care they deserve. From everyday dirt and stubborn stains to
+                    worn-out carpets, we use the right products and proven
+                    techniques to leave your space feeling fresh, clean, and
+                    cared for.
                   </motion.p>
                 </div>
                 <ul>

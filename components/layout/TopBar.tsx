@@ -9,22 +9,22 @@ const TopBar = () => {
           <div className="col-lg-8 col-12">
             <ul className="contact-info">
               <li>
-                <a href="tel:+10000000000">
+                <Link href="tel:+12403167748">
                   <i className="flaticon-phone"></i>
-                  <span>(000) 000-0000</span>
-                </a>
+                  <span>(240) 316-7748</span>
+                </Link>
               </li>
 
-              <li>
+              {/* <li>
                 <a href="mailto:support@freshclean.com">
                   <i className="ti-email"></i>
                   <span>support@freshclean.com</span>
                 </a>
-              </li>
+              </li> */}
 
               <li>
                 <i className="ti-location-pin"></i>
-                <span>Frederick, MD</span>
+                <span>14605 old Columbia pike Burtonsville Md 20866</span>
               </li>
             </ul>
           </div>

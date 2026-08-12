@@ -18,59 +18,59 @@ const processSteps = [
   {
     step: 1,
     title: "Pre-Inspection",
-    text: "We walk through your Urbana home, note traffic patterns, stains, and fabric types, and confirm your service plan.",
+    text: "We walk through your Urbana home with you, check the carpet’s condition, note stains and high-traffic areas, and confirm what needs to be cleaned.",
   },
   {
     step: 2,
     title: "Pre-Treatment",
-    text: "Targeted pre-spray loosens embedded soil and breaks down spots before the main cleaning pass.",
+    text: "We apply the appropriate pre-treatment to help loosen dirt, buildup, and spots before the main cleaning begins.",
   },
   {
     step: 3,
     title: "Hot Water Extraction",
-    text: "Truck-mounted steam cleaning flushes dirt and allergens from carpet fibers for a deep, restorative clean.",
+    text: "Our cleaning process uses hot water extraction to lift dirt and buildup from deep within the carpet fibers, leaving them thoroughly cleaned and refreshed.",
   },
   {
     step: 4,
-    title: "Neutralization Rinse",
-    text: "A balanced rinse removes cleaning residue so carpets feel soft and stay cleaner longer.",
+    title: "Rinse & Residue Removal",
+    text: "We rinse the carpet to help remove loosened dirt and cleaning residue, leaving the fibers feeling clean and refreshed.",
   },
   {
     step: 5,
-    title: "Grooming & Raking",
-    text: "Carpet grooming lifts the pile for an even appearance and faster, more uniform drying.",
+    title: "Grooming & Drying",
+    text: "We groom the carpet to help restore the appearance of the fibers and encourage more even drying.",
   },
   {
     step: 6,
     title: "Post-Cleaning Inspection",
-    text: "We review results with you and share simple after-care tips before we wrap up.",
+    text: "Before we leave, we review the finished areas with you and share simple after-care tips to help keep your carpets looking their best.",
   },
 ];
 
 const specialties = [
-  "Wall-to-wall carpet cleaning for Urbana residences",
-  "Oriental and area rug pickup & delivery available",
+  "Wall-to-wall carpet cleaning for Urbana homes",
+  "Oriental and area rug cleaning with pickup and delivery",
   "Upholstery and sectional cleaning",
-  "Tile & grout cleaning for kitchens and baths",
-  "Pet odor and stain treatment",
-  "Carpet protector reapplication",
+  "Tile and grout cleaning for kitchens and bathrooms",
+  "Pet stain and odor treatment",
+  "Carpet protector application and reapplication",
 ];
 
 const whyChoose = [
   {
     icon: "flaticon-user",
-    title: "Experienced & Certified Technicians",
-    text: "Skilled pros who serve Urbana, the Villages of Urbana, and nearby Frederick County daily.",
+    title: "Experienced & Caring Technicians",
+    text: "Our team takes the time to understand your floors and provide careful, dependable service throughout Urbana and the surrounding area.",
   },
   {
-    icon: "flaticon-cleaning",
-    title: "Safe & Eco-Friendly Solutions",
-    text: "Family-safe products that deliver powerful results without harsh chemical odors.",
+    icon: "flaticon-clock",
+    title: "Thoughtful Cleaning Solutions",
+    text: "We choose cleaning methods and products based on your flooring and its condition, with your home and belongings in mind.",
   },
   {
     icon: "flaticon-handshake",
-    title: "Competitive Rates & Free Estimates",
-    text: "Upfront, honest pricing with no hidden fees — request your free quote anytime.",
+    title: "Competitive Pricing & Free Estimates",
+    text: "Know what to expect before we begin. Request a free estimate and get straightforward pricing with no unnecessary surprises",
   },
 ];
 
@@ -109,7 +109,8 @@ export default function UrbanaAreaPage() {
             transition={fadeTransition(0)}
           >
             <h2 className="area-urbana-headline">
-              Healthy Home Revival Starts Here: Fresh Clean in Urbana, Maryland
+              Healthy Home Revival Starts Here: Totally Flooring in Urbana,
+              Maryland
             </h2>
           </motion.div>
 
@@ -123,20 +124,21 @@ export default function UrbanaAreaPage() {
                 transition={fadeTransition(0.1)}
               >
                 <h3 className="area-section-heading">
-                  Trusted carpet cleaning in Urbana — including the Villages of
+                  Trusted Carpet Cleaning in Urbana — Including the Villages of
                   Urbana
                 </h3>
                 <p className="area-body-text">
-                  Urbana families deserve carpets that look great, smell fresh,
-                  and contribute to a healthier indoor environment. Fresh Clean
-                  brings professional truck-mounted cleaning directly to your
-                  door with flexible scheduling that fits busy Maryland
-                  lifestyles.
+                  Totally Flooring provides professional carpet cleaning
+                  throughout Urbana, including the Villages of Urbana. We help
+                  homeowners freshen up carpets affected by everyday dirt,
+                  spills, stains, and foot traffic, with convenient scheduling
+                  that works around your routine.
                 </p>
                 <p className="area-body-text">
-                  From new construction homes to established neighborhoods, we
-                  tailor every visit to your floors, furniture, and family needs
-                  — with clear communication from quote to completion.
+                  From newer homes to established neighborhoods, we take the
+                  time to understand your floors and the areas that need
+                  attention. You’ll get straightforward communication from your
+                  initial quote through the completion of your service.
                 </p>
               </motion.div>
             </div>
@@ -149,11 +151,9 @@ export default function UrbanaAreaPage() {
                 variants={fadeInUp}
                 transition={fadeTransition(0.2)}
               >
-                <iframe
-                  src="https://www.youtube.com/embed/1Bsgv6DnTiI"
-                  title="Fresh Clean carpet cleaning"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
+                <img
+                  src="/assets/images/service-area/urbana-md/11.png"
+                  alt="Totally Flooring carpet cleaning"
                 />
               </motion.div>
             </div>
@@ -172,11 +172,10 @@ export default function UrbanaAreaPage() {
             transition={fadeTransition(0)}
           >
             <h2 className="area-section-title">
-              Our Carpet Cleaning Process in Urbana, MD
+              Our Flooring Cleaning Process in Urbana, MD
             </h2>
             <p className="area-body-text area-body-text--center">
-              A proven six-step method for consistent, high-quality results
-              every visit.
+              A proven process for consistent, high-quality results every visit.
             </p>
           </motion.div>
 
@@ -224,7 +223,7 @@ export default function UrbanaAreaPage() {
             <div className="col-lg-6">
               <div className="area-stack-images">
                 <motion.img
-                  src="/assets/images/bottles-with-cleansers.png"
+                  src="/assets/images/service-area/urbana-md/2.png"
                   alt="Cleaning products"
                   initial="hidden"
                   whileInView="visible"
@@ -233,7 +232,7 @@ export default function UrbanaAreaPage() {
                   transition={fadeTransition(0.1)}
                 />
                 <motion.img
-                  src="/assets/images/work/image-1.jpg"
+                  src="/assets/images/service-area/urbana-md/3.png"
                   alt="Technician at work"
                   className="area-stack-images__overlay"
                   initial="hidden"
@@ -258,7 +257,7 @@ export default function UrbanaAreaPage() {
             variants={fadeInUp}
             transition={fadeTransition(0)}
           >
-            Why Choose Fresh Clean in Urbana, Maryland?
+            Why Choose Totally Flooring in Urbana, Maryland?
           </motion.h2>
           <div className="row g-4 mt-2">
             {whyChoose.map((item, index) => (
@@ -294,7 +293,7 @@ export default function UrbanaAreaPage() {
           >
             <h2>Breathe New Life Into Your Urbana Home!</h2>
             <p className="area-urbana-cta__phone">
-              CALL <Link href="tel:+10000000000">(000) 000-0000</Link> TODAY FOR
+              CALL <Link href="tel:+12403167748">(240) 316-7748</Link> TODAY FOR
               A FREE QUOTE!
             </p>
             <p>We look forward to hearing from you.</p>

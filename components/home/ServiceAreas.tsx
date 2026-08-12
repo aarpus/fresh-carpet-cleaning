@@ -35,7 +35,10 @@ const locations = [
 
 export default function ServiceAreas() {
   return (
-    <section id="service-areas" className="wpo-blog-section section-padding pt-0">
+    <section
+      id="service-areas"
+      className="wpo-blog-section section-padding pt-0"
+    >
       <div className="wpo-blog-wrap section-padding box-style">
         <div className="container">
           <div className="row align-items-center justify-content-center">
@@ -49,7 +52,7 @@ export default function ServiceAreas() {
                   transition={fadeTransition(0)}
                 >
                   <i>
-                    <img src="/assets/images/cleaning-icon.svg" alt="" />
+                    <img src="/assets/images/cleaning-icon.png" alt="" />
                   </i>
                   Area We Serve
                 </motion.span>

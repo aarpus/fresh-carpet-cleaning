@@ -104,17 +104,7 @@ export default function ServiceDetailContent({
                 transition={fadeTransition(0.3)}
               >
                 <div className="video-img">
-                  <img src="/assets/images/service-single/video.jpg" alt="" />
-                  <div className="video-holder">
-                    <a
-                      href="https://www.youtube.com/embed/1Bsgv6DnTiI"
-                      className="video-btn"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="flaticon-play" />
-                    </a>
-                  </div>
+                  <img src={service.videoImage} alt={service.title} />
                 </div>
                 <div className="video-content">
                   <h2>{service.videoTitle}</h2>
@@ -230,8 +220,8 @@ export default function ServiceDetailContent({
                 </div>
                 <h2>Looking for Cleaning service Provider?</h2>
                 <span>Call anytime</span>
-                <a href="tel:+10000000000" className="num">
-                  <span>(000) 000-0000</span>
+                <a href="tel:+12403167748" className="num">
+                  <span>(240) 316-7748</span>
                 </a>
               </div>
             </motion.div>

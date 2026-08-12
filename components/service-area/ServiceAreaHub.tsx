@@ -29,16 +29,16 @@ export default function ServiceAreaHub() {
         >
           <span>
             <i>
-              <img src="/assets/images/cleaning-icon.svg" alt="" />
+              <img src="/assets/images/cleaning-icon.png" alt="" />
             </i>
             we serve
           </span>
           <h2>Areas We Proudly Serve</h2>
           <p className="area-hub-lead">
-            Fresh Clean Carpet Cleaning provides professional carpet, upholstery,
-            and floor care throughout Frederick County and surrounding Maryland
-            communities. Select your area below to learn about local service
-            details.
+            Fresh Clean Carpet Cleaning provides professional carpet,
+            upholstery, and floor care throughout Frederick County and
+            surrounding Maryland communities. Select your area below to learn
+            about local service details.
           </p>
         </motion.div>
 
@@ -89,9 +89,9 @@ export default function ServiceAreaHub() {
           <p>
             We also serve Thurmont, Middletown, Walkersville, Gaithersburg,
             Germantown, and many more communities.{" "}
-            <Link href="/#service-areas">See the full service area list</Link> or{" "}
-            <Link href="/contact">contact us</Link> to confirm coverage at your
-            address.
+            <Link href="/#service-areas">See the full service area list</Link>{" "}
+            or <Link href="/contact">contact us</Link> to confirm coverage at
+            your address.
           </p>
         </motion.div>
       </div>

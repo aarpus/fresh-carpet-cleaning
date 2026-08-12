@@ -24,43 +24,44 @@ const leftColumn: PreparationBlock[] = [
   {
     title: "Payment Options",
     paragraphs: [
-      "We accept all major credit and debit cards, personal checks, and cash. Payment is due upon completion of service unless other arrangements have been made in advance.",
+      "We accept major credit and debit cards, personal checks, and cash. Payment is due when your service is completed unless other arrangements have been made with Totally Flooring in advance.",
     ],
   },
   {
     title: "Preparation Before Our Arrival",
     items: [
-      "Please reserve a parking spot as close to the entrance as possible for our service vehicle and hoses.",
-      "Let us know about any furniture with weak legs, loose tops, or delicate finishes before we begin.",
-      "Vacuum high-traffic areas and under movable furniture when possible — this helps us focus on deep cleaning.",
-      "Pin up full-length draperies and furniture skirts at least 6 inches off the carpet.",
-      "We do not move heavy furniture such as china cabinets, pianos, or large electronics, but we will clean around them using protective blocks and tabs.",
-      "Please keep pets and children away from hoses, equipment, and wet carpet during service.",
+      "To help your appointment go smoothly and give our team the best access to your floors, please keep the following in mind:",
+      "•	Please reserve a parking spot as close to the entrance as possible for our service vehicle and equipment.",
+      "•	Let us know about any delicate or damaged furniture before we begin, including loose legs, tops, or fragile finishes.",
+      "•	Vacuum high-traffic areas and under movable furniture when possible so we can focus more of our time on deep cleaning.",
+      "•	Pin up full-length draperies and furniture skirts at least 6 inches above the carpet.",
+      "•  We do not move heavy items such as pianos, china cabinets, or large electronics, but we’ll clean carefully around them.",
+      "•	Keep children and pets away from equipment and damp carpet during the service for everyone's safety",
     ],
   },
   {
     title: "Before-and-After Documentation",
     paragraphs: [
-      "Our technicians may take before-and-after photos to document results and ensure quality. If you would like copies for your records, let us know and we can share them by email after your appointment.",
+      "Our technicians may take before-and-after photos to document the work and help ensure the results meet our standards. If you’d like a copy of the photos for your records, just let us know and we’ll be happy to share them with you after your appointment",
     ],
   },
   {
     title: "Pet Safety & Children Safety",
     items: [
-      "For everyone's safety, please keep pets in a separate room or secured area during cleaning.",
-      "Keep children away from hoses, doorways, and our truck-mounted equipment while we are working.",
-      "Wet carpet and hard-floor transitions can be slippery — please use caution until areas are fully dry.",
+      "•	Please keep pets in a separate room or secure area while our team is working.",
+      "•	Keep children away from hoses, equipment, doorways, and work areas during the cleaning service.",
+      "•	Use caution around damp carpet and transitions between flooring surfaces until everything is fully dry.",
     ],
   },
   {
     title: "After Our Service",
     items: [
-      "We provide a complimentary spotting bottle for minor spills between professional cleanings.",
-      "Allow 12–24 hours for carpets to dry completely before moving furniture back into place.",
-      "Light carpet ripples or bumps may appear after cleaning but typically settle as fibers dry.",
-      "Use caution when stepping from damp carpet onto tile, hardwood, or other hard surfaces.",
-      "Keep shoe soles clean when walking on freshly cleaned carpet.",
-      "Running your A/C or fans can help speed up drying time.",
+      "We’ll provide helpful care instructions after your cleaning so you know how to keep your carpets looking their best between professional services.",
+      "Allow 12–24 hours for carpets to dry completely, depending on airflow, humidity, and the amount of cleaning required.",
+      "Light ripples or bumps may appear while the carpet is damp and will typically settle as it dries.",
+      "Use care when moving between damp carpet and hard flooring, such as tile or hardwood, as surfaces may be slippery.",
+      "Keep shoes clean when walking on freshly cleaned carpet to help prevent new dirt from being tracked in.",
+      "Run your A/C, fans, or open windows when appropriate to improve airflow and help speed up drying.",
     ],
   },
 ];
@@ -69,22 +70,21 @@ const rightColumn: PreparationBlock[] = [
   {
     title: "Gratuities",
     paragraphs: [
-      "Tips are always appreciated by our technicians but are never expected. If you are satisfied with your service, a gratuity is a wonderful way to say thank you.",
+      "Tips are always appreciated but never expected. If you’re happy with the service provided by our team, a gratuity is a thoughtful way to show your appreciation",
     ],
   },
   {
     title: "Upon Our Arrival",
     items: [
-      "We will walk through your home with you to review the work order and confirm all areas to be cleaned.",
+      "We’ll walk through the space with you to review the service and confirm the areas you’d like us to clean. Point out any specific stains, high-traffic areas, or concerns so our team can give them the attention they need",
       "Please point out specific stains, high-traffic zones, or areas of concern so we can treat them properly.",
-      "Ask us about reapplying carpet protector to help guard against future spills and soiling.",
-      "We are happy to provide estimates for additional services such as upholstery, tile, or hardwood cleaning.",
+      "Interested in other services? We can also provide estimates for upholstery, tile and grout, hardwood, or other flooring services",
     ],
   },
   {
     title: "Cleaning Products",
     paragraphs: [
-      "Fresh Clean uses professional-grade, environmentally responsible cleaning solutions that are effective on dirt, stains, and odors while being safe for families and pets. Safety Data Sheets are available upon request.",
+      "Totally Flooring uses carefully selected professional cleaning solutions suited to the surfaces we clean. Our products are chosen to effectively tackle everyday dirt, stains, and odors while being appropriate for use in homes and businesses. Safety Data Sheets are available upon request",
     ],
   },
   {
@@ -96,9 +96,9 @@ const rightColumn: PreparationBlock[] = [
   {
     title: "Parking, Weather & Scheduling",
     items: [
-      "Keep driveways, sidewalks, and parking areas clear of snow, ice, and obstacles so we can access your home safely.",
-      "Extreme cold (below 32°F) or severe weather may affect scheduling — we will contact you if a reschedule is needed.",
-      "Ensure gate codes, building access, and contact numbers are available on the day of your appointment.",
+      "Please keep driveways, walkways, and parking areas clear of snow, ice, and other obstacles so our team can safely access your property.",
+      "Severe weather or extreme temperatures may affect your appointment. If conditions make it unsafe to travel or complete the service, we’ll contact you to discuss rescheduling.",
+      "Please have any gate codes, building access information, and current contact details available on the day of your appointment so our team can reach you without delays.",
     ],
   },
 ];
@@ -148,7 +148,7 @@ export default function PreparationContent() {
         >
           <span>
             <i>
-              <img src="/assets/images/cleaning-icon.svg" alt="" />
+              <img src="/assets/images/cleaning-icon.png" alt="" />
             </i>
             preparation
           </span>
@@ -163,12 +163,12 @@ export default function PreparationContent() {
           variants={fadeInUp}
           transition={fadeTransition(0.1)}
         >
-          Thank you for choosing Fresh Clean Carpet Cleaning. A little
+          Thank you for choosing Totally Flooring Carpet Cleaning. A little
           preparation before we arrive helps us deliver the best results safely
           and efficiently. If you have any questions, call us at{" "}
-          <Link href="tel:+10000000000">(000) 000-0000</Link> or email{" "}
-          <Link href="mailto:support@freshclean.com">
-            support@freshclean.com
+          <Link href="tel:+12403167748">(240) 316-7748</Link> or email{" "}
+          <Link href="mailto:info@totallyflooring.com">
+            info@totallyflooring.com
           </Link>
           .
         </motion.p>
@@ -183,7 +183,7 @@ export default function PreparationContent() {
         >
           <img
             src="/assets/images/choose/choose.png"
-            alt="Fresh Clean technician preparing for carpet cleaning service"
+            alt="Totally Flooring technician preparing for flooring cleaning service"
           />
         </motion.div>
 

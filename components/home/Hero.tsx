@@ -36,8 +36,8 @@ export default function Hero() {
                 transition={fadeTransition(0)}
               >
                 <span className="text-white">
-                  <img src="/assets/images/cleaning-icon.svg" alt="Cleaning" />
-                  Because Clean Feels Better
+                  <img src="/assets/images/cleaning-icon.png" alt="Cleaning" />
+                  Quality Flooring. Beautiful Spaces
                 </span>
               </motion.div>
 
@@ -48,7 +48,7 @@ export default function Hero() {
                 variants={fadeInUp}
                 transition={fadeTransition(0.3)}
               >
-                <h2>Fresh Carpet Cleaning for Homes & Offices</h2>
+                <h2>Transform Your Space With Beautiful Flooring</h2>
               </motion.div>
 
               <motion.div
@@ -59,8 +59,10 @@ export default function Hero() {
                 transition={fadeTransition(0.5)}
               >
                 <p className="text-white">
-                  Professional carpet cleaning that removes dirt, stains, and
-                  odors—leaving your carpets fresh, clean, and healthy.
+                  Professional flooring solutions for homes and businesses,
+                  designed to deliver lasting quality, comfort, and style. From
+                  selection to installation, Totally Flooring brings your vision
+                  to life.
                 </p>
               </motion.div>
 
@@ -72,12 +74,12 @@ export default function Hero() {
                 transition={fadeTransition(0.7)}
               >
                 <Link href="/appointment" className="theme-btn-s2">
-                  Book Now
+                  Get a Free Estimate
                 </Link>
 
                 <Link href="/services" className="theme-btn-s3 mx-2">
                   <span className="rolling-text" data-text="Our Services">
-                    Our Services
+                    Explore Our Services
                   </span>
                 </Link>
               </motion.div>

@@ -898,7 +898,7 @@ img {
 }
 
 .theme-btn-s3 {
-  background: transparent;
+  background: #015285;
   -webkit-box-shadow: none;
   box-shadow: none;
   padding-left: 30px;
@@ -2173,7 +2173,7 @@ img {
 .topbar .contact-info li span {
   color: #fff;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: normal;
 }
 
 .topbar .contact-info li+li {

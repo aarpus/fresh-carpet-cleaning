@@ -48,33 +48,33 @@ export default function Footer() {
                 <Link href="/" className="site-footer-logo-wrap d-inline-block">
                   <img
                     src="/assets/images/logo.png"
-                    alt="Cleanar Cleaning Services"
+                    alt="Totally Flooring"
                     className="site-footer-logo"
                   />
                 </Link>
-                <p className="site-footer-desc">
-                  The #1 carpet cleaning company in Frederick, MD. We bring your
-                  carpet back to life!
-                </p>
+                {/* <p className="site-footer-desc">
+                  The #1 flooring company in Burtonsville, MD. We bring your
+                  floors back to life!
+                </p> */}
                 <ul className="site-footer-contact-lines list-unstyled mb-0">
                   <li>
                     <Link
-                      href="tel:+10000000000"
+                      href="tel:+12403167748"
                       className="site-footer-contact-line"
                     >
                       <i className="fa fa-phone" aria-hidden="true" />
-                      <span>(000) 000-0000</span>
+                      <span>(240) 316-7748</span>
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
-                      href="mailto:support@freshclean.com"
+                      href="mailto:info@totallyflooring.com"
                       className="site-footer-contact-line"
                     >
                       <i className="fa fa-envelope" aria-hidden="true" />
-                      <span>support@freshclean.com</span>
+                      <span>info@totallyflooring.com</span>
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
                 <ul className="site-footer-social list-unstyled d-flex align-items-center flex-wrap gap-2 mt-4">
                   {socialLinks.map((social) => (
@@ -126,7 +126,7 @@ export default function Footer() {
         <div className="site-footer-bar">
           <div className="site-footer-bar-inner text-center text-lg-start">
             <p className="site-footer-bar-copy mb-0">
-              &copy; 2026 Fresh Clean Carpet Cleaning
+              &copy; 2026 Totally Flooring
             </p>
             <div className="site-footer-bar-links">
               <Link href="#">Privacy Policy</Link>

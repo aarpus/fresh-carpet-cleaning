@@ -31,9 +31,9 @@ const fadeTransition = (delay = 0) => ({
 });
 
 const features = [
-  { label: "Deep & Detailed Cleaning", active: false },
-  { label: "Eco-Friendly Products", active: true },
-  { label: "Flexible Scheduling", active: false },
+  { label: "Deep & Thorough Cleaning", active: false },
+  { label: "Carefully Selected Eco-Friendly  Products", active: true },
+  { label: "Convenient Scheduling", active: false },
 ];
 
 export default function BeforeAfter() {
@@ -120,7 +120,7 @@ export default function BeforeAfter() {
                     transition={fadeTransition(0.1)}
                   >
                     <i>
-                      <img src="/assets/images/cleaning-icon.svg" alt="" />
+                      <img src="/assets/images/cleaning-icon.png" alt="" />
                     </i>
                     before &amp; after
                   </motion.span>
@@ -132,7 +132,7 @@ export default function BeforeAfter() {
                     variants={slideInRight}
                     transition={fadeTransition(0.2)}
                   >
-                    Transforming Spaces, One Clean at a Time
+                    See the Difference a Professional Clean Can Make
                   </motion.h2>
                   <motion.p
                     initial="hidden"
@@ -141,8 +141,9 @@ export default function BeforeAfter() {
                     variants={fadeInUp}
                     transition={fadeTransition(0.3)}
                   >
-                    Let us take the stress out of cleaning, so you can focus on
-                    what matters most.
+                    From everyday wear to stubborn stains, we give your floors
+                    the deep clean they need to look fresh, clean, and
+                    refreshed.
                   </motion.p>
                 </div>
                 <ul>

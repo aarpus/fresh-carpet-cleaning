@@ -20,27 +20,27 @@ const fadeTransition = (delay = 0) => ({
 });
 
 const stats = [
-  { value: "15+", label: "Years serving Frederick County" },
-  { value: "2,500+", label: "Homes cleaned locally" },
-  { value: "100%", label: "Satisfaction focused service" },
+  { value: "15+", label: "Years Serving Frederick County" },
+  { value: "2,500+", label: "Homes Cleaned Locally" },
+  { value: "100%", label: "Satisfaction-Focused Service" },
 ];
 
 const localServices = [
   {
     title: "Whole-Home Carpet Refresh",
-    text: "Ideal for Myersville ranchers, colonials, and multi-level homes needing a full reset.",
+    text: "Ideal for Myersville homes, from ranchers and colonials to multi-level houses, that could use a thorough carpet refresh from room to room.",
   },
   {
     title: "Pet-Friendly Deep Cleaning",
-    text: "Extra attention to mudroom paths, pet beds, and accident-prone areas common in country living.",
+    text: "Extra attention to pet areas, mudroom paths, and high-traffic spots where dirt, mud, and everyday messes tend to build up.",
   },
   {
-    title: "Seasonal Allergen Removal",
-    text: "Remove pollen, dust, and tracked-in debris that builds up between Maryland seasons.",
+    title: "Seasonal Cleaning",
+    text: "Help clear away pollen, dust, and tracked-in dirt that can build up on carpets as Maryland’s seasons change.",
   },
   {
     title: "Move-In / Move-Out Cleaning",
-    text: "Prepare a home for new owners or refresh carpets before listing your Myersville property.",
+    text: "Get your Myersville home ready for new owners, tenants, or the next chapter with a thorough carpet cleaning that leaves the space looking fresh and well cared for.",
   },
 ];
 
@@ -56,7 +56,7 @@ const nearbyTowns = [
 const testimonials = [
   {
     quote:
-      "Fresh Clean did an amazing job on our living room and stairs. Friendly team, fair price, and carpets dried faster than we expected.",
+      "Totally Flooring did an amazing job on our living room and stairs. Friendly team, fair price, and carpets dried faster than we expected.",
     name: "Sarah M.",
     area: "Myersville homeowner",
   },
@@ -85,19 +85,20 @@ export default function MyersvilleAreaPage() {
                 <span className="area-myersville-hero__eyebrow">
                   Myersville, Maryland
                 </span>
-                <h1>Small-Town Homes Deserve Big-City Clean</h1>
+                <h1>Small-Town Homes Deserve Great Cleaning</h1>
                 <p>
-                  Fresh Clean Carpet Cleaning proudly serves Myersville with
-                  personalized carpet and upholstery care — the kind of
-                  attentive, neighborly service you expect from a local team
-                  that knows Frederick County.
+                  Totally Flooring proudly serves Myersville with dependable
+                  carpet and upholstery cleaning, bringing the personal
+                  attention and friendly service you expect from a local team
+                  that understands the needs of homes throughout Frederick
+                  County.
                 </p>
                 <div className="area-myersville-hero__actions">
                   <Link href="/appointment" className="theme-btn-s2">
                     Schedule Service
                   </Link>
-                  <Link href="tel:+10000000000" className="theme-btn-s3">
-                    (000) 000-0000
+                  <Link href="tel:+12403167748" className="theme-btn-s3">
+                    (240) 316-7748
                   </Link>
                 </div>
               </motion.div>
@@ -112,20 +113,16 @@ export default function MyersvilleAreaPage() {
                 transition={fadeTransition(0.15)}
               >
                 <img
-                  src="/assets/images/work/image-5.jpg"
-                  alt="Carpet cleaning in Myersville MD"
+                  src="/assets/images/service-area/myersville-md/1.png"
+                  alt="Flooring cleaning in Myersville MD"
                 />
-                <div className="area-myersville-hero__pin">
-                  <i className="ti-location-pin" /> Serving Myersville &amp;
-                  nearby
-                </div>
               </motion.div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="area-myersville-stats">
+      <section className="area-myersville-stats mt-4">
         <div className="container">
           <div className="row g-4">
             {stats.map((stat, index) => (
@@ -158,7 +155,7 @@ export default function MyersvilleAreaPage() {
             variants={fadeInUp}
             transition={fadeTransition(0)}
           >
-            Carpet Care Built for Myersville Living
+            Flooring Care Built for Myersville Living
           </motion.h2>
           <div className="row g-4 mt-2">
             {localServices.map((service, index) => (
@@ -283,7 +280,7 @@ export default function MyersvilleAreaPage() {
           >
             <div>
               <h2>Ready for cleaner carpets in Myersville?</h2>
-              <p>
+              <p className="text-white">
                 Book online in minutes or call for a free estimate. Same-week
                 appointments often available.
               </p>

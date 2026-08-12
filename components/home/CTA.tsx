@@ -43,7 +43,8 @@ export default function CTA() {
                     variants={slideInRight}
                     transition={fadeTransition(0.1)}
                   >
-                    Need Help Fast? We&apos;re Just One Call Away
+                    Need Your Floors Freshened Up ? We&apos;re Just One Call
+                    Away
                   </motion.h2>
                   <motion.p
                     initial="hidden"
@@ -52,15 +53,17 @@ export default function CTA() {
                     variants={fadeInUp}
                     transition={fadeTransition(0.2)}
                   >
-                    In today&apos;s competitive business, the demand for
-                    efficient IT solutions has never been more critical.
+                    From everyday wear and stubborn stains to carpets that need
+                    a little extra care, Totally Flooring is here to help. Give
+                    us a call and let&apos;s get your floors looking fresh
+                    again.
                   </motion.p>
                 </div>
-                <a href="tel:+10000000000" className="call">
+                <a href="tel:+12403167748" className="call">
                   <i>
                     <img src="/assets/images/phone-call.svg" alt="" />
                   </i>
-                  +1 000-000-0000
+                  +1 (240) 316-7748
                 </a>
                 <small>
                   Consult With It Advisor? <Link href="#">Click Now</Link>

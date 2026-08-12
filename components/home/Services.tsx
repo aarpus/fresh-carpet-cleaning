@@ -60,7 +60,7 @@ export default function Services() {
                   transition={fadeTransition(0)}
                 >
                   <i>
-                    <img src="/assets/images/cleaning-icon.svg" alt="" />
+                    <img src="/assets/images/cleaning-icon.png" alt="" />
                   </i>
                   Services
                 </motion.span>
@@ -90,7 +90,10 @@ export default function Services() {
                 key={service.title}
                 className="col-lg-4 col-md-6 col-12 mb-4"
               >
-                <motion.div className="wpo-service-item" variants={itemVariants}>
+                <motion.div
+                  className="wpo-service-item"
+                  variants={itemVariants}
+                >
                   <div className="wpo-service-img middle-light">
                     <img src={service.image} alt={service.title} />
                   </div>

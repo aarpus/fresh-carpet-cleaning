@@ -30,6 +30,8 @@ export default function Navbar() {
                     width={240}
                     height={100}
                     priority
+                    className="object-fit-contain"
+                    style={{ objectFit: "contain", height: "100px" }}
                   />
                 </Link>
               </div>

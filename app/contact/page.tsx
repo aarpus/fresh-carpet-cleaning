@@ -7,9 +7,9 @@ const officeInfo = [
     title: "address line",
     content: (
       <>
-        Frederick, MD, USA
+        14605 old Columbia pike Burtonsville
         <br />
-        MD 00000,USA
+        Md 20866
       </>
     ),
     active: false,
@@ -17,25 +17,13 @@ const officeInfo = [
   {
     icon: "fi flaticon-phone-call",
     title: "Phone Number",
-    content: (
-      <>
-        (000) 000-0000
-        <br />
-        (000) 000-0000
-      </>
-    ),
+    content: <>(240) 316-7748</>,
     active: true,
   },
   {
     icon: "fi flaticon-mail-1",
     title: "Address",
-    content: (
-      <>
-        contact@freshclean.com
-        <br />
-        info@freshclean.com
-      </>
-    ),
+    content: <>info@totallyflooring.com</>,
     active: false,
   },
 ];
@@ -80,7 +68,7 @@ export default function ContactPage() {
                   </p>
                   <div className="map">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.9147703055!2d-74.11976314309273!3d40.69740344223377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbd!4v1547528325671"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3096.4929625954537!2d-76.945982!3d39.095245600000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7db39443c9c75%3A0x820f665738d116b6!2s14605%20Old%20Columbia%20Pike%2C%20Burtonsville%2C%20MD%2020866%2C%20USA!5e0!3m2!1sen!2sin!4v1786530915671!5m2!1sen!2sin"
                       allowFullScreen
                       title="Office location map"
                     />

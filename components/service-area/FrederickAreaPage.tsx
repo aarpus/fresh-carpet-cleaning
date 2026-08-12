@@ -18,22 +18,22 @@ const services = [
   {
     title: "Deep Carpet Cleaning",
     image: "/assets/images/service/service-6.png",
-    text: "Hot water extraction removes embedded dirt, allergens, and everyday soil from wall-to-wall carpet throughout Frederick homes.",
+    text: "Thorough carpet cleaning helps lift away embedded dirt, everyday buildup, and stubborn spots from wall-to-wall carpeting throughout Frederick homes.",
   },
   {
     title: "Pet Stain Removal",
     image: "/assets/images/service/service-4.png",
-    text: "Targeted treatments for pet accidents, odors, and recurring spots so your carpets stay fresh for the whole family.",
+    text: "Targeted cleaning for pet accidents, stains, and lingering odors to help your carpets feel fresh and ready for everyday family life.",
   },
   {
     title: "Area Rug Cleaning",
     image: "/assets/images/service/service-5.png",
-    text: "Safe cleaning for Oriental, wool, synthetic, and decorative rugs with careful handling and thorough drying.",
+    text: "Careful cleaning for Oriental, wool, synthetic, and decorative rugs, with an approach suited to the material and condition of each rug.",
   },
   {
     title: "Upholstery Cleaning",
     image: "/assets/images/service/service-1.png",
-    text: "Revive sofas, sectionals, and dining chairs with fabric-safe cleaning that lifts stains and refreshes fibers.",
+    text: "Refresh sofas, sectionals, and dining chairs with careful upholstery cleaning that helps lift dirt, stains, and everyday buildup from fabric.",
   },
 ];
 
@@ -41,22 +41,22 @@ const whyChoose = [
   {
     icon: "fa fa-star",
     title: "Experienced Technicians",
-    text: "Trained professionals who know Frederick homes — from historic downtown properties to newer suburban builds.",
+    text: "Our team takes the time to understand your floors and provide careful, dependable cleaning for Frederick homes.",
   },
   {
     icon: "fa fa-cogs",
-    title: "State-of-the-Art Equipment",
-    text: "Truck-mounted extraction systems deliver deeper cleaning power than rental or portable units.",
+    title: "Professional Cleaning Equipment",
+    text: "We use professional equipment and the right cleaning methods to tackle everyday dirt, stains, and buildup effectively.",
   },
   {
     icon: "fa fa-leaf",
-    title: "Eco-Friendly Solutions",
-    text: "Non-toxic products that are tough on dirt but safe for children, pets, and the environment.",
+    title: "Thoughtful Cleaning Solutions",
+    text: "We select cleaning products and methods with your flooring, furniture, and home in mind.",
   },
   {
     icon: "fa fa-handshake-o",
-    title: "Satisfaction Guarantee",
-    text: "We stand behind our work with responsive follow-up and a commitment to results you can see and feel.",
+    title: "Service You Can Count On",
+    text: "From your first call to the final walkthrough, we focus on clear communication, careful work, and a service experience you can feel good about.",
   },
 ];
 
@@ -84,7 +84,7 @@ export default function FrederickAreaPage() {
         <div className="area-map-hero__label">FREDERICK, MD</div>
       </div>
 
-      <section className="section-padding pt-0">
+      <section className="section-padding pt-0 mt-4">
         <div className="container text-center">
           <motion.h2
             className="area-page-title"
@@ -94,7 +94,7 @@ export default function FrederickAreaPage() {
             variants={fadeInUp}
             transition={fadeTransition(0)}
           >
-            Fresh Clean Carpet Cleaning – Frederick, MD
+            Totally Flooring – Burtonsville, MD
           </motion.h2>
           <motion.p
             className="area-page-subtitle"
@@ -104,7 +104,7 @@ export default function FrederickAreaPage() {
             variants={fadeInUp}
             transition={fadeTransition(0.1)}
           >
-            Professional Carpet Cleaning Services
+            Professional Flooring Cleaning Services
           </motion.p>
         </div>
       </section>
@@ -124,17 +124,17 @@ export default function FrederickAreaPage() {
                   Your Local Carpet Cleaning Experts in Frederick
                 </h3>
                 <p className="area-body-text">
-                  Frederick homeowners trust Fresh Clean for reliable, thorough
-                  carpet care. We understand the mix of busy family life, pets,
-                  and Maryland seasons that wear on your floors — and we deliver
-                  results that make your home feel renewed from the ground up.
+                  Frederick homeowners can count on Totally Flooring for
+                  dependable, thorough carpet cleaning. We understand how family
+                  life, pets, everyday traffic, and changing Maryland seasons
+                  can take a toll on your floors, and we’re here to help bring
+                  back a cleaner, fresher feel.
                 </p>
                 <p className="area-body-text">
-                  Whether you need a one-time deep clean before guests arrive or
-                  regular maintenance for high-traffic rooms, our team shows up
-                  on time, treats your property with respect, and leaves carpets
-                  cleaner, fresher, and faster-drying than DIY methods ever
-                  could.
+                  WWhether you need a one-time deep clean before guests arrive
+                  or regular care for busy areas of your home, our team works
+                  carefully, respects your space, and pays attention to the
+                  details that make a difference.
                 </p>
               </motion.div>
             </div>
@@ -208,7 +208,7 @@ export default function FrederickAreaPage() {
             variants={fadeInUp}
             transition={fadeTransition(0)}
           >
-            Why Choose Fresh Clean in Frederick?
+            Why Choose Totally Flooring in Frederick?
           </motion.h2>
           <div className="row g-4 mt-2">
             {whyChoose.map((item, index) => (
@@ -250,7 +250,7 @@ export default function FrederickAreaPage() {
               From downtown Frederick to Ballenger Creek, Spring Ridge, and
               nearby communities, we are proud to bring professional carpet
               cleaning to your neighborhood. Call{" "}
-              <Link href="tel:+10000000000">(000) 000-0000</Link> for a free
+              <Link href="tel:+12403167748">(240) 316-7748</Link> for a free
               estimate.
             </p>
           </motion.div>
@@ -280,7 +280,7 @@ export default function FrederickAreaPage() {
                 variants={fadeInUp}
                 transition={fadeTransition(index * 0.04)}
               >
-                <img src={src} alt={`Fresh Clean work ${index + 1}`} />
+                <img src={src} alt={`Totally Flooring work ${index + 1}`} />
               </motion.div>
             ))}
           </div>
