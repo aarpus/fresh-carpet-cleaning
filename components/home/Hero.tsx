@@ -36,7 +36,10 @@ export default function Hero() {
                 transition={fadeTransition(0)}
               >
                 <span className="text-white">
-                  <img src="/assets/images/cleaning-icon.png" alt="Cleaning" />
+                  <img
+                    src="/assets/images/cleaning-icon-white.png"
+                    alt="Totally Flooring"
+                  />
                   Quality Flooring. Beautiful Spaces
                 </span>
               </motion.div>

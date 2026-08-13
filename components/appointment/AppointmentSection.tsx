@@ -49,7 +49,7 @@ export default function AppointmentSection() {
   const handleChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
-    >
+    >,
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
@@ -230,12 +230,8 @@ export default function AppointmentSection() {
                     </div>
                   </div>
                   <div className="submit-area">
-                    <button type="submit" className="theme-btn">
-                      <i
-                        className="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      />
-                      Submit Request
+                    <button type="submit" className="theme-btn-s3">
+                      Book Appointment
                     </button>
                     <div
                       id="loader"

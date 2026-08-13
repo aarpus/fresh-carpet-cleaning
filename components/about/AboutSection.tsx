@@ -175,7 +175,7 @@ export default function AboutSection() {
                   transition={fadeTransition(0)}
                 >
                   <img
-                    src="/assets/images/about/about-img-2.jpg"
+                    src="/assets/images/about/about-img-2.png"
                     alt="Professional carpet cleaning"
                   />
                   <motion.div

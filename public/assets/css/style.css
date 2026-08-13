@@ -300,20 +300,20 @@ img {
 
 /*** back to top **/
 .back-to-top {
-  background-color: rgba(66, 198, 82, 0.7);
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  border: 2px solid #8ABE3F;
-  border-radius: 45px;
-  text-align: center;
-  display: none;
-  position: fixed;
-  z-index: 999;
-  right: 15px;
-  bottom: 15px;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
+  background-color: rgb(141 208 53);
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border: 2px solid #015289;
+    border-radius: 45px;
+    text-align: center;
+    display: none;
+    position: fixed;
+    z-index: 999;
+    right: 15px;
+    bottom: 15px;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
 }
 
 @media (max-width: 991px) {
@@ -331,7 +331,7 @@ img {
 .back-to-top i {
   font-size: 18px;
   font-size: 1rem;
-  color: #fff;
+  color: #015289;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -810,7 +810,7 @@ img {
 .theme-btn-s3:hover,
 .theme-btn-s3:focus,
 .theme-btn-s3:active {
-  color: #000;
+  color: #fff;
 }
 
 .theme-btn:hover::before,
@@ -4182,7 +4182,7 @@ img {
 .static-hero-s2 .slide-sub-title h2 {
   position: relative;
   color: #fff;
-  font-size: 70px;
+  font-size: 66px;
   font-style: normal;
   font-weight: 600;
   line-height: 80px;

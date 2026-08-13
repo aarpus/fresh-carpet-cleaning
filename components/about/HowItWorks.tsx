@@ -66,7 +66,7 @@ export default function HowItWorks() {
                 transition={fadeTransition(0)}
               >
                 <i>
-                  <img src="/assets/images/cleaning-icon-white.svg" alt="" />
+                  <img src="/assets/images/cleaning-icon-white.png" alt="" />
                 </i>
                 How It Works
               </motion.span>
@@ -116,7 +116,7 @@ export default function HowItWorks() {
           transition={fadeTransition(0)}
         >
           <div className="image-move">
-            <img src="/assets/images/work/image-1.jpg" alt="" />
+            <img src="/assets/images/about/1.png" alt="" />
           </div>
         </motion.div>
         <motion.div
@@ -128,7 +128,7 @@ export default function HowItWorks() {
           transition={fadeTransition(0.1)}
         >
           <div className="image-move">
-            <img src="/assets/images/work/image-2.jpg" alt="" />
+            <img src="/assets/images/about/2.png" alt="" />
           </div>
         </motion.div>
         <motion.div
@@ -140,7 +140,7 @@ export default function HowItWorks() {
           transition={fadeTransition(0.2)}
         >
           <div className="image-move">
-            <img src="/assets/images/work/image-3.jpg" alt="" />
+            <img src="/assets/images/about/3.png" alt="" />
           </div>
         </motion.div>
       </div>
@@ -155,7 +155,7 @@ export default function HowItWorks() {
           transition={fadeTransition(0)}
         >
           <div className="image-move2">
-            <img src="/assets/images/work/image-4.jpg" alt="" />
+            <img src="/assets/images/about/4.png" alt="" />
           </div>
         </motion.div>
         <motion.div
@@ -167,7 +167,7 @@ export default function HowItWorks() {
           transition={fadeTransition(0.1)}
         >
           <div className="image-move2">
-            <img src="/assets/images/work/image-5.jpg" alt="" />
+            <img src="/assets/images/about/5.png" alt="" />
           </div>
         </motion.div>
         <motion.div
@@ -179,7 +179,7 @@ export default function HowItWorks() {
           transition={fadeTransition(0.2)}
         >
           <div className="image-move2">
-            <img src="/assets/images/work/image-6.jpg" alt="" />
+            <img src="/assets/images/about/6.png" alt="" />
           </div>
         </motion.div>
       </div>

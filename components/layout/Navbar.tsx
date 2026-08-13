@@ -95,8 +95,10 @@ export default function Navbar() {
                   <li>
                     <Link href="/preparation">Preparation</Link>
                   </li>
-
-                  <li className="menu-item-has-children">
+                  <li>
+                    <Link href="/about">About Us</Link>
+                  </li>
+                  {/* <li className="menu-item-has-children">
                     <Link href="/about">About Us</Link>
 
                     <ul className="sub-menu">
@@ -116,7 +118,7 @@ export default function Navbar() {
                         <Link href="/why-choose-us">Why Choose Us</Link>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                   <li className="menu-item-has-children">
                     <Link href="/service-area">We Serve Area</Link>
                     <ul className="sub-menu">

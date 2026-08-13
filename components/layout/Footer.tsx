@@ -1,33 +1,31 @@
+import { label } from "framer-motion/client";
 import Link from "next/link";
 
 const quickLinks = [
   { label: "Home", href: "/" },
   { label: "Our Services", href: "/services" },
-  { label: "Why Choose Us", href: "/about" },
-  { label: "Reviews", href: "/about" },
   { label: "About Us", href: "/about" },
   { label: "Contact Us", href: "/contact" },
+  { label: "Preparation", href: "/preparation" },
+  { label: "We Serve Area", href: "/service-area" },
 ];
 
 const serviceLinks = [
   { label: "Carpet Cleaning", href: "/services/carpet-cleaning" },
   { label: "Upholstery Cleaning", href: "/services/upholstery-cleaning" },
   { label: "Tile & Grout Cleaning", href: "/services/tile-grout-cleaning" },
+  { label: "Odor Control", href: "/services/odor-control" },
   {
     label: "Hardwood Floor Cleaning",
     href: "/services/hardwood-floor-cleaning",
   },
-  { label: "Area Rug Cleaning", href: "/services" },
-  { label: "Water Damage Restoration", href: "/services" },
+  { label: "Carpet Repair Services", href: "/services/carpet-repair" },
 ];
 
 const areaLinks = [
-  { label: "Frederick", href: "/#service-areas" },
-  { label: "Thurmont", href: "/#service-areas" },
-  { label: "Middletown", href: "/#service-areas" },
-  { label: "Gaithersburg", href: "/#service-areas" },
-  { label: "Germantown", href: "/#service-areas" },
-  { label: "View All Areas", href: "/#service-areas" },
+  { label: "Frederick MD", href: "/service-area/frederick-md" },
+  { label: "Urbana MD", href: "/service-area/urbana-md" },
+  { label: "Myersville MD", href: "/service-area/myersville-md" },
 ];
 
 const socialLinks = [

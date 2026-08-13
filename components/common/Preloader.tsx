@@ -10,6 +10,10 @@ export default function Preloader() {
           <div className="loader-line-mask">
             <div className="loader-line"></div>
           </div>
+          <img
+            src="/assets/images/cleaning-icon-white.png"
+            alt="Totally Flooring"
+          />
         </div>
       </div>
     </div>
