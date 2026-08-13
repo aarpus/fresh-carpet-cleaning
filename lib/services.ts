@@ -189,9 +189,9 @@ export const services: Service[] = [
     videoDescription:
       "Over time, grout can become discolored from everyday dirt, spills, soap residue, and moisture. Professional cleaning helps refresh those hard-to-reach areas and brings back a cleaner, more even look to your tile surfaces.",
     videoPoints: [
-      "•	Helps Remove Dirt, Soap Scum, and Buildup",
-      "•	Suitable for a Variety of Tile Surfaces",
-      "•	Sealing Options Available for Added Protection",
+      "Helps Remove Dirt, Soap Scum, and Buildup",
+      "Suitable for a Variety of Tile Surfaces",
+      "Sealing Options Available for Added Protection",
     ],
     videoImage: "/assets/images/service-single/tile-grout-cleaning/2.png",
     closingParagraph:

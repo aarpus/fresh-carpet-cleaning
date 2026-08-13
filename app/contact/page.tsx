@@ -63,8 +63,7 @@ export default function ContactPage() {
                 <div className="contact-left">
                   <h2>Get in touch</h2>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit
-                    mattis faucibus odio feugiat arc dolor.
+                    Get in touch with our team, and we’ll be happy to assist you with any inquiries, feedback, or support you may need.
                   </p>
                   <div className="map">
                     <iframe

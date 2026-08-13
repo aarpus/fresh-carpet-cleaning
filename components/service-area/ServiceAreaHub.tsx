@@ -35,7 +35,7 @@ export default function ServiceAreaHub() {
           </span>
           <h2>Areas We Proudly Serve</h2>
           <p className="area-hub-lead">
-            Fresh Clean Carpet Cleaning provides professional carpet,
+            Totally Flooring provides professional carpet,
             upholstery, and floor care throughout Frederick County and
             surrounding Maryland communities. Select your area below to learn
             about local service details.
