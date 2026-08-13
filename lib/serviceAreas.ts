@@ -28,7 +28,7 @@ export const serviceAreas: ServiceAreaMeta[] = [
     layout: "urbana",
     excerpt:
       "Trusted carpet care for Urbana and the Villages of Urbana — hot water extraction, eco-friendly products, free estimates.",
-    hubImage: "/assets/images/choose/choose.png",
+    hubImage: "/assets/images/service-area/urbana-md/1.png",
     mapQuery: "Urbana,+MD+21704",
   },
   {
@@ -38,12 +38,14 @@ export const serviceAreas: ServiceAreaMeta[] = [
     layout: "myersville",
     excerpt:
       "Reliable carpet cleaning for Myersville families — personalized service, honest pricing, and spotless results.",
-    hubImage: "/assets/images/work/image-1.jpg",
+    hubImage: "/assets/images/service-area/myersville-md/1.png",
     mapQuery: "Myersville,+MD",
   },
 ];
 
-export function getServiceAreaBySlug(slug: string): ServiceAreaMeta | undefined {
+export function getServiceAreaBySlug(
+  slug: string,
+): ServiceAreaMeta | undefined {
   return serviceAreas.find((area) => area.slug === slug);
 }
 

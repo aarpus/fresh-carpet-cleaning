@@ -48,7 +48,7 @@ export default function Hero() {
                 variants={fadeInUp}
                 transition={fadeTransition(0.3)}
               >
-                <h2>Transform Your Space With Beautiful Flooring</h2>
+                <h2>Rejuvenate Your Space With Beautiful Flooring</h2>
               </motion.div>
 
               <motion.div
@@ -59,9 +59,9 @@ export default function Hero() {
                 transition={fadeTransition(0.5)}
               >
                 <p className="text-white">
-                  Professional flooring solutions for homes and businesses,
-                  designed to deliver lasting quality, comfort, and style. From
-                  selection to installation, Totally Flooring brings your vision
+                  Professional floor caring solutions for your space, Designed
+                  to deliver lasting quality & leave your space feeling fresh,
+                  clean, and cared for. Totally Flooring brings your floor back
                   to life.
                 </p>
               </motion.div>

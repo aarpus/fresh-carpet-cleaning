@@ -99,7 +99,7 @@ export default function FAQ() {
                     <i>
                       <img src="/assets/images/cleaning-icon.png" alt="" />
                     </i>
-                    faq
+                    FAQs
                   </motion.span>
                   <motion.h2
                     className="poort-text poort-in-right"
@@ -109,7 +109,7 @@ export default function FAQ() {
                     variants={slideInRight}
                     transition={fadeTransition(0.2)}
                   >
-                    Frequently ask questions...
+                    Frequently asked questions...
                   </motion.h2>
                   <motion.p
                     initial="hidden"
