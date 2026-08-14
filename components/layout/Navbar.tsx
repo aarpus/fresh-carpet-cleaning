@@ -26,7 +26,7 @@ export default function Navbar() {
                 <Link href="/" className="navbar-brand">
                   <Image
                     src="/assets/images/logo.png"
-                    alt="Fresh Clean"
+                    alt="Tottally Flooring"
                     width={240}
                     height={100}
                     priority
