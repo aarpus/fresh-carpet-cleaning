@@ -6,8 +6,8 @@ const TopBar = () => {
     <div className="topbar">
       <div className="container-fluid">
         <div className="row align-items-center">
-          <div className="col-lg-8 col-12">
-            <ul className="contact-info">
+          <div className="col-7 col-lg-8">
+            <ul className="contact-info text-start">
               <li>
                 <Link href="tel:+12403167748">
                   <i className="flaticon-phone"></i>
@@ -22,15 +22,15 @@ const TopBar = () => {
                 </a>
               </li> */}
 
-              <li>
+              <li className="d-none d-lg-inline-flex">
                 <i className="ti-location-pin"></i>
                 <span>14605 old Columbia pike Burtonsville Md 20866</span>
               </li>
             </ul>
           </div>
 
-          <div className="col-lg-4 col-12">
-            <div className="contact-into">
+          <div className="col-5 col-lg-4">
+            <div className="contact-into justify-content-end">
               <ul className="social-media">
                 <li>
                   <Link href="#">
